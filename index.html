@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Worth Math - inflation and purchasing power arithmetic</title>
+<style>
+  :root { --accent:#8a5a14; --ink:#2b1d08; --paper:#fbf6ec; --soft:#f3e7cf; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#8c6a35; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Worth Math</h1>
+  <p class="lede">At 3% a year, 100 later buys only what 74.41 buys today.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Worth Math does arithmetic on the rates you type, as if prices and returns rose by the same percent every year. It does not forecast inflation or returns, does not know your actual prices, taxes or fees, and gives no financial advice. Every rate here is your own entry; check it against a source you trust.
+  </div>
+  <section>
+    <h2>The shrink truth</h2>
+    <p>At 3% a year for 10 years, 100.00 later buys what 74.41 buys today, and what costs 100.00 today would cost 134.39 then. Prices change by 34.39% in total.</p>
+  </section>
+  <section>
+    <h2>The raise truth</h2>
+    <p>With a raise of 3% and inflation of 5%, buying power changes by -1.90% (subtracting the percents would give -2.00%). Matching inflation of 5% takes a raise of 5%.</p>
+  </section>
+  <section>
+    <h2>The savings truth</h2>
+    <p>100.00 growing at a yearly rate of 4% for 10 years becomes 148.02. With inflation of 3% a year, that is worth 110.14 in today's money, a real yearly rate of 0.97%.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Worth Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
