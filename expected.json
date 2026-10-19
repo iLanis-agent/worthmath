@@ -1,0 +1,618 @@
+[
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3",
+   "10"
+  ],
+  "expected": "At 3% a year for 10 years, 100.00 later buys what 74.41 buys today, and what costs 100.00 today would cost 134.39 then. Prices change by 34.39% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "0",
+   "10"
+  ],
+  "expected": "At 0% a year for 10 years, 100.00 later buys what 100.00 buys today, and what costs 100.00 today would cost 100.00 then. Prices change by 0.00% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3",
+   "0"
+  ],
+  "expected": "At 3% a year for 0 years, 100.00 later buys what 100.00 buys today, and what costs 100.00 today would cost 100.00 then. Prices change by 0.00% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3",
+   "1"
+  ],
+  "expected": "At 3% a year for 1 year, 100.00 later buys what 97.09 buys today, and what costs 100.00 today would cost 103.00 then. Prices change by 3.00% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "1000",
+   "2.5",
+   "20"
+  ],
+  "expected": "At 2.5% a year for 20 years, 1000.00 later buys what 610.27 buys today, and what costs 1000.00 today would cost 1638.62 then. Prices change by 63.86% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "0",
+   "3",
+   "10"
+  ],
+  "expected": "At 3% a year for 10 years, 0.00 later buys what 0.00 buys today, and what costs 0.00 today would cost 0.00 then. Prices change by 34.39% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "0.01",
+   "7.25",
+   "30"
+  ],
+  "expected": "At 7.25% a year for 30 years, 0.01 later buys what 0.00 buys today, and what costs 0.01 today would cost 0.08 then. Prices change by 716.43% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "999999999999",
+   "100",
+   "100"
+  ],
+  "expected": "At 100% a year for 100 years, 999999999999.00 later buys what 0.00 buys today, and what costs 999999999999.00 today would cost 1267650600226961750896474975974503296794624.00 then. Prices change by 126765060022822940149670320537500.00% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "-2",
+   "10"
+  ],
+  "expected": "At -2% a year for 10 years, 100.00 later buys what 122.39 buys today, and what costs 100.00 today would cost 81.71 then. Prices change by -18.29% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "-50",
+   "5"
+  ],
+  "expected": "At -50% a year for 5 years, 100.00 later buys what 3200.00 buys today, and what costs 100.00 today would cost 3.13 then. Prices change by -96.88% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "100",
+   "1"
+  ],
+  "expected": "At 100% a year for 1 year, 100.00 later buys what 50.00 buys today, and what costs 100.00 today would cost 200.00 then. Prices change by 100.00% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "250.50",
+   "4",
+   "25"
+  ],
+  "expected": "At 4% a year for 25 years, 250.50 later buys what 93.97 buys today, and what costs 250.50 today would cost 667.79 then. Prices change by 166.58% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3.00",
+   "10"
+  ],
+  "expected": "At 3% a year for 10 years, 100.00 later buys what 74.41 buys today, and what costs 100.00 today would cost 134.39 then. Prices change by 34.39% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   " 100 ",
+   " 3 ",
+   " 10 "
+  ],
+  "expected": "At 3% a year for 10 years, 100.00 later buys what 74.41 buys today, and what costs 100.00 today would cost 134.39 then. Prices change by 34.39% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "6",
+   "12"
+  ],
+  "expected": "At 6% a year for 12 years, 100.00 later buys what 49.70 buys today, and what costs 100.00 today would cost 201.22 then. Prices change by 101.22% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "20000",
+   "8",
+   "40"
+  ],
+  "expected": "At 8% a year for 40 years, 20000.00 later buys what 920.62 buys today, and what costs 20000.00 today would cost 434490.43 then. Prices change by 2072.45% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "-0",
+   "3"
+  ],
+  "expected": "At 0% a year for 3 years, 100.00 later buys what 100.00 buys today, and what costs 100.00 today would cost 100.00 then. Prices change by 0.00% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "0.5",
+   "100"
+  ],
+  "expected": "At 0.5% a year for 100 years, 100.00 later buys what 60.73 buys today, and what costs 100.00 today would cost 164.67 then. Prices change by 64.67% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3",
+   "100"
+  ],
+  "expected": "At 3% a year for 100 years, 100.00 later buys what 5.20 buys today, and what costs 100.00 today would cost 1921.86 then. Prices change by 1821.86% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "1",
+   "10",
+   "7"
+  ],
+  "expected": "At 10% a year for 7 years, 1.00 later buys what 0.51 buys today, and what costs 1.00 today would cost 1.95 then. Prices change by 94.87% in total."
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "-5",
+   "3",
+   "10"
+  ],
+  "expected": "ERR:amount must be a number from 0 to 999999999999 with at most 2 decimals"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100.123",
+   "3",
+   "10"
+  ],
+  "expected": "ERR:amount must be a number from 0 to 999999999999 with at most 2 decimals"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "abc",
+   "3",
+   "10"
+  ],
+  "expected": "ERR:amount must be a number from 0 to 999999999999 with at most 2 decimals"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "1000000000000",
+   "3",
+   "10"
+  ],
+  "expected": "ERR:amount must be a number from 0 to 999999999999 with at most 2 decimals"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "101",
+   "10"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "-51",
+   "10"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3.125",
+   "10"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "x",
+   "10"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3",
+   "101"
+  ],
+  "expected": "ERR:years must be a whole number from 0 to 100"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3",
+   "2.5"
+  ],
+  "expected": "ERR:years must be a whole number from 0 to 100"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3",
+   "-1"
+  ],
+  "expected": "ERR:years must be a whole number from 0 to 100"
+ },
+ {
+  "fn": "shrinkTruth",
+  "args": [
+   "100",
+   "3",
+   ""
+  ],
+  "expected": "ERR:years must be a whole number from 0 to 100"
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "3",
+   "5"
+  ],
+  "expected": "With a raise of 3% and inflation of 5%, buying power changes by -1.90% (subtracting the percents would give -2.00%). Matching inflation of 5% takes a raise of 5%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "5",
+   "5"
+  ],
+  "expected": "With a raise of 5% and inflation of 5%, buying power changes by 0.00% (subtracting the percents would give 0.00%). Matching inflation of 5% takes a raise of 5%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "8",
+   "3"
+  ],
+  "expected": "With a raise of 8% and inflation of 3%, buying power changes by 4.85% (subtracting the percents would give 5.00%). Matching inflation of 3% takes a raise of 3%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "0",
+   "3"
+  ],
+  "expected": "With a raise of 0% and inflation of 3%, buying power changes by -2.91% (subtracting the percents would give -3.00%). Matching inflation of 3% takes a raise of 3%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "3",
+   "0"
+  ],
+  "expected": "With a raise of 3% and inflation of 0%, buying power changes by 3.00% (subtracting the percents would give 3.00%). Matching inflation of 0% takes a raise of 0%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "10",
+   "10"
+  ],
+  "expected": "With a raise of 10% and inflation of 10%, buying power changes by 0.00% (subtracting the percents would give 0.00%). Matching inflation of 10% takes a raise of 10%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "2.5",
+   "7.25"
+  ],
+  "expected": "With a raise of 2.5% and inflation of 7.25%, buying power changes by -4.43% (subtracting the percents would give -4.75%). Matching inflation of 7.25% takes a raise of 7.25%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "-5",
+   "4"
+  ],
+  "expected": "With a raise of -5% and inflation of 4%, buying power changes by -8.65% (subtracting the percents would give -9.00%). Matching inflation of 4% takes a raise of 4%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "100",
+   "-50"
+  ],
+  "expected": "With a raise of 100% and inflation of -50%, buying power changes by 300.00% (subtracting the percents would give 150.00%). Matching inflation of -50% takes a raise of -50%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "-50",
+   "100"
+  ],
+  "expected": "With a raise of -50% and inflation of 100%, buying power changes by -75.00% (subtracting the percents would give -150.00%). Matching inflation of 100% takes a raise of 100%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "1",
+   "18"
+  ],
+  "expected": "With a raise of 1% and inflation of 18%, buying power changes by -14.41% (subtracting the percents would give -17.00%). Matching inflation of 18% takes a raise of 18%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "4.5",
+   "4.5"
+  ],
+  "expected": "With a raise of 4.5% and inflation of 4.5%, buying power changes by 0.00% (subtracting the percents would give 0.00%). Matching inflation of 4.5% takes a raise of 4.5%."
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "3",
+   "abc"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "101",
+   "3"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "3",
+   "-51"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "raiseTruth",
+  "args": [
+   "3.001",
+   "3"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "4",
+   "3",
+   "10"
+  ],
+  "expected": "100.00 growing at a yearly rate of 4% for 10 years becomes 148.02. With inflation of 3% a year, that is worth 110.14 in today's money, a real yearly rate of 0.97%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "3",
+   "3",
+   "10"
+  ],
+  "expected": "100.00 growing at a yearly rate of 3% for 10 years becomes 134.39. With inflation of 3% a year, that is worth 100.00 in today's money, a real yearly rate of 0.00%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "2",
+   "5",
+   "10"
+  ],
+  "expected": "100.00 growing at a yearly rate of 2% for 10 years becomes 121.90. With inflation of 5% a year, that is worth 74.84 in today's money, a real yearly rate of -2.86%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "4",
+   "3",
+   "0"
+  ],
+  "expected": "100.00 growing at a yearly rate of 4% for 0 years becomes 100.00. With inflation of 3% a year, that is worth 100.00 in today's money, a real yearly rate of 0.97%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "10000",
+   "5",
+   "2.5",
+   "30"
+  ],
+  "expected": "10000.00 growing at a yearly rate of 5% for 30 years becomes 43219.42. With inflation of 2.5% a year, that is worth 20604.54 in today's money, a real yearly rate of 2.44%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "500",
+   "0",
+   "3",
+   "20"
+  ],
+  "expected": "500.00 growing at a yearly rate of 0% for 20 years becomes 500.00. With inflation of 3% a year, that is worth 276.84 in today's money, a real yearly rate of -2.91%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "500",
+   "3",
+   "0",
+   "20"
+  ],
+  "expected": "500.00 growing at a yearly rate of 3% for 20 years becomes 903.06. With inflation of 0% a year, that is worth 903.06 in today's money, a real yearly rate of 3.00%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "1",
+   "100",
+   "100",
+   "5"
+  ],
+  "expected": "1.00 growing at a yearly rate of 100% for 5 years becomes 32.00. With inflation of 100% a year, that is worth 1.00 in today's money, a real yearly rate of 0.00%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "1234.56",
+   "6.5",
+   "3.2",
+   "17"
+  ],
+  "expected": "1234.56 growing at a yearly rate of 6.5% for 17 years becomes 3601.27. With inflation of 3.2% a year, that is worth 2108.15 in today's money, a real yearly rate of 3.20%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "-5",
+   "2",
+   "10"
+  ],
+  "expected": "100.00 growing at a yearly rate of -5% for 10 years becomes 59.87. With inflation of 2% a year, that is worth 49.12 in today's money, a real yearly rate of -6.86%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "999999999999",
+   "10",
+   "3",
+   "100"
+  ],
+  "expected": "999999999999.00 growing at a yearly rate of 10% for 100 years becomes 13780612339808489.57. With inflation of 3% a year, that is worth 717044394915070.43 in today's money, a real yearly rate of 6.80%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "0",
+   "4",
+   "3",
+   "10"
+  ],
+  "expected": "0.00 growing at a yearly rate of 4% for 10 years becomes 0.00. With inflation of 3% a year, that is worth 0.00 in today's money, a real yearly rate of 0.97%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "4",
+   "3",
+   "1"
+  ],
+  "expected": "100.00 growing at a yearly rate of 4% for 1 year becomes 104.00. With inflation of 3% a year, that is worth 100.97 in today's money, a real yearly rate of 0.97%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "2000",
+   "1.5",
+   "4",
+   "12"
+  ],
+  "expected": "2000.00 growing at a yearly rate of 1.5% for 12 years becomes 2391.24. With inflation of 4% a year, that is worth 1493.56 in today's money, a real yearly rate of -2.40%."
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "x",
+   "4",
+   "3",
+   "10"
+  ],
+  "expected": "ERR:amount must be a number from 0 to 999999999999 with at most 2 decimals"
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "x",
+   "3",
+   "10"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "4",
+   "x",
+   "10"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "4",
+   "3",
+   "x"
+  ],
+  "expected": "ERR:years must be a whole number from 0 to 100"
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "4",
+   "101",
+   "10"
+  ],
+  "expected": "ERR:rate must be a percent from -50 to 100 with at most 2 decimals"
+ },
+ {
+  "fn": "savingsTruth",
+  "args": [
+   "100",
+   "4",
+   "3",
+   "101"
+  ],
+  "expected": "ERR:years must be a whole number from 0 to 100"
+ }
+]
